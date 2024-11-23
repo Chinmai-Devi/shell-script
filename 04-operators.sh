@@ -7,7 +7,7 @@ b=$2
 #here $ is most imp, if we gice $ then only shell is considering that is a value
 sum=$(($a+$b))
 sub=$(($a-$b))
-mukl=$(($a*$b))
+mul=$(($a*$b))
 div=$(($a/$b))
 
 echo "sum is : $sum"
