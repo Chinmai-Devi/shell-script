@@ -11,3 +11,7 @@ echo "${fam[0]}"
 family=($1 $2 $3)
 
 echo "${family[1]}"
+
+#if we want all use '@'
+
+echo "${fam[@]}"
