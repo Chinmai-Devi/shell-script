@@ -12,6 +12,8 @@ read uname
 
 echo "Please enter the password"
 
-read pswd
+#use -s to hide the entering value 
 
-echo "Hi " $uname " welcome! Your pswd is " $pswd
+read -s pswd
+
+echo "Hi "$uname" welcome! :
