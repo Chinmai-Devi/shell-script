@@ -16,4 +16,4 @@ echo "Please enter the password"
 
 read -s pswd
 
-echo "Hi "$uname" welcome! :
+echo "Hi "$uname" welcome!"
