@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "$@ is used for all the variables"
+echo "@ :is used for all the variables -> $@ "
