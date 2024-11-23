@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-family=("father" "mother" "daughter" "son")
+family=($1 $2 $3)
 
 echo "${family[1]}"
