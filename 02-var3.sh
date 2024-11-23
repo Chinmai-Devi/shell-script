@@ -2,9 +2,11 @@
 
 
 
-#useing read command
 
 echo "Please enter username"
+
+
+#useing read command
 
 read uname
 
