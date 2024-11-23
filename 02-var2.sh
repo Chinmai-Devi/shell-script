@@ -1,4 +1,5 @@
-person1=$1
+#!/bin/bash
+person1=$1   #arguments
 person2=$2
 
 echo "$person1: Hi $person2, How are you?"
