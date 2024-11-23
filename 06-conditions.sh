@@ -5,7 +5,7 @@ n2=$2
 
 if[$n1 -gt $n2]
 then
-echo "$n1 is greater than $n2
+echo "$n1 is greater than $n2"
 else
-echo "$n1 is less than $n2
+echo "$n1 is less than $n2"
 fi
