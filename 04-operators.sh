@@ -3,7 +3,7 @@
 a=$1
 b=$2
 
-sum=$(a+b)
+sum=$(($a+$b))
 
 
-echo "sum is : " $sum
+echo "sum is : $sum"
