@@ -4,9 +4,10 @@ echo "All about colours"
 
 #the syntac is \e[colorcodem    eg: \e[33m
 
+n="\e[0m"
 
-echo -e "Groom is \e[34m Sudheer"
+echo -e "This is \e[34m Clue color $n"
 
-echo -e "\e[0mBride is \e[35m Chinmai"
+echo -e "This is \e[35m Purple"
 
-echo -e "\e[34mSudheer Kumar \e[32m Weds \e[35m Chinmai Devi"
+echo -e "Mix of colors is \e[34mSblue \e[32m Green \e[35m Purple"
