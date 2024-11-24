@@ -35,4 +35,5 @@ do
     else
         dnf install $i &>>logfile
         validate $? "Installation of $i"
+    fi
 
