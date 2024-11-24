@@ -33,7 +33,7 @@ do
     then 
         echo -e "$i Already installed so \e[33m Skipping it $N"
     else
-        dnf install $i &>>logfile
+        dnf install $i -y &>>logfile
         validate $? "Installation of $i"
     fi
 done
