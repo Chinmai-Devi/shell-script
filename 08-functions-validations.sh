@@ -5,9 +5,9 @@ userid=$(id -u)
 validate(){
     if [ $1 -eq 0 ]
     then 
-        echo "Success"
+        echo "$2 Success"
     else 
-        echo "Falure"
+        echo "$2 Falure"
     fi
 }
 
