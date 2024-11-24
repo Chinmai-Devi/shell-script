@@ -12,7 +12,8 @@ validate(){
         echo -e "\e[32m Success $N"
     else
         echo -e "\e[31m Failure $N"
-
+        exit 1
+    fi
 }
 
 if [ $userid -eq 0 ]
