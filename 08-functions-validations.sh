@@ -11,7 +11,7 @@ validate(){
     fi
 }
 
-if [ $? -eq 0 ]
+if [ $userid -eq 0 ]
 then 
     echo "Yay! you have super user access so proceeding with installations"
 else
