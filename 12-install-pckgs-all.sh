@@ -36,4 +36,4 @@ do
         dnf install $i &>>logfile
         validate $? "Installation of $i"
     fi
-
+done
