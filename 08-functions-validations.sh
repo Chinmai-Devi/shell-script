@@ -16,6 +16,7 @@ then
     echo "Yay! you have super user access so proceeding with installations"
 else
     echo "Please run with super access"
+    exit 1
 fi
 
 
